@@ -1,0 +1,42 @@
+TREE:- tree data structure is used to organise data in hierarchical manner.
+Node:- all the data items in the tree is called node.
+
+Root:- Node which is at top of the hierarchy is called Root node i.e there are no nodes above this node.
+
+Leaf nodes:- nodes which don't have anything below them is called leaf node or a node with degree 0 is also called leaf node.
+
+child node:- nodes which are just below another node are called children of that node.
+
+parent node:- node which are just above another node is called parent of that node.
+
+subtrees:- A tree itself contains many trees inside it and all those trees are called subtrees of that tree.
+
+Edge or link :- A edge is a link connecting any two nodes.
+
+siblings:- nodes with same parent node is called siblings.
+
+Internal node:- all the nodes(including root) which have atleast one child is called internal node.
+
+degree of node:- degree of node=total no. of childrens of that node
+
+degree of tree:- max(degree of all nodes)
+
+ancestor and descendent:- if we can walk from node 'a' to node 'b' using links(and these links are not bi-directional) then node 'a' is the ancestor of node 'b' and 'b' is descendant of node 'a'.
+ 
+level :- every step/hierarchy in a tree is a level. root is always at level 0 and child of root are at level 1 and grandchild of root are at level 2 and so on.
+
+height of a node:- longest path from leaf to that particluar node.
+
+depth of a node:-  longest path from root node to that particluar node.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+properties:-
+
+1. tree with 'n' nodes will have n-1 edges or links.
+
+2. inorder:- left->root->right
+
+3. preorder:- root->left->right
+
+4. postorder:- left->right->root 
